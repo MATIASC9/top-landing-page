@@ -73,3 +73,38 @@ a {
     height: 200px;
     object-fit: cover;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 60px;
+    align-items: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+}
+
+.cards div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.cards div p {
+}
+
+.cards div img {
+    border-radius: 10px;
+}

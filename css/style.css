@@ -130,3 +130,39 @@ a {
     font-weight: 900;
     font-size: 24px;
 }
+
+.call-to-action {
+    display: flex;
+    place-content: center;
+    padding: 100px 0;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.call-to-action .card button {
+    align-self: start;
+    background-color: #3882f6;
+    padding: 8px 30px;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.call-to-action .card .text h4 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.call-to-action .card .text p {
+    color: #e5e7eb;
+}
